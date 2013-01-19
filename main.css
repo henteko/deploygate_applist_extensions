@@ -1,0 +1,42 @@
+ul {
+    border-top: 1px solid #e6e6e6;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    border-bottom: 1px solid #e6e6e6;
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.name {
+    color: #333333;
+    font-size: 93%;
+    font-weight: bold;
+}
+
+a {
+    background: #f5f5f5;
+    display: block;
+    line-height: 28px;
+    padding: 3px;
+    position: relative;
+    text-decoration: none;
+    text-indent: 8px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+img {
+    height: 45px;
+}
+
+
