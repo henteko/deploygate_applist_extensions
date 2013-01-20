@@ -28,12 +28,5 @@ $(function () {
         });
 
         $("body").append($ul);
-chrome.alarms.create('refreshDeployGate', {periodInMinutes: 0.1});
-chrome.alarms.onAlarm.addListener(function(alarm) {
-    console.log("hoge");
-});
-
-
-
     });
 });
